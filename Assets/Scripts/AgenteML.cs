@@ -13,6 +13,8 @@ public class AgenteML : Agent
     private Transform _target, _isla;
     public bool _training = true;
     private Rigidbody _rb;
+
+
     public override void Initialize()
     {
         _rb = GetComponent<Rigidbody>();
