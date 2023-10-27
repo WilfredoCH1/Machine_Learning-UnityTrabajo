@@ -60,7 +60,7 @@ public class AgenteML : Agent
         Vector3 movement = new Vector3(moveHorizontal, 0f, moveVertical);
 
         continuousActionsOut[0] = movement.x;
-        continuousActionsOut[2] = movement.z;
+        continuousActionsOut[1] = movement.z;
 
         //float moveHorizontal = Input.GetAxis("Horizontal");
         //float moveVertical = Input.GetAxis("Vertical");
