@@ -2,22 +2,31 @@
     "bolaml": {
         "checkpoints": [
             {
-                "steps": 283200,
-                "file_path": "results\\ppo\\bolaml\\bolaml-283200.onnx",
-                "reward": -13.174998998641968,
-                "creation_time": 1698442847.7236362,
+                "steps": 499200,
+                "file_path": "results\\ppo\\bolaml\\bolaml-499200.onnx",
+                "reward": null,
+                "creation_time": 1698594734.8343897,
                 "auxillary_file_paths": [
-                    "results\\ppo\\bolaml\\bolaml-283200.pt"
+                    "results\\ppo\\bolaml\\bolaml-499200.pt"
+                ]
+            },
+            {
+                "steps": 500800,
+                "file_path": "results\\ppo\\bolaml\\bolaml-500800.onnx",
+                "reward": -39.10000228881836,
+                "creation_time": 1698594739.6077938,
+                "auxillary_file_paths": [
+                    "results\\ppo\\bolaml\\bolaml-500800.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 283200,
+            "steps": 500800,
             "file_path": "results\\ppo\\bolaml.onnx",
-            "reward": -13.174998998641968,
-            "creation_time": 1698442847.7236362,
+            "reward": -39.10000228881836,
+            "creation_time": 1698594739.6077938,
             "auxillary_file_paths": [
-                "results\\ppo\\bolaml\\bolaml-283200.pt"
+                "results\\ppo\\bolaml\\bolaml-500800.pt"
             ]
         }
     },
